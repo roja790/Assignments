@@ -32,7 +32,7 @@ totalcredit=totalcredit+t;
         debit++;
         totaldebit=totaldebit+t;
     }
-    if(Math.abs(t)>10000)
+    if(t>=10000||t<=-10000)
     {
         console.log("suspicious:",t);
         suspicious++;
