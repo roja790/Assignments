@@ -41,8 +41,8 @@ function gethike(emp: any) {
     let hikepercent = (hike / emp.base) * 100;
     return hikepercent;
 
-
 }
+
 for (let emp of employeeDetails) {
     let result = gethike(emp);
     console.log(emp.name + "==>" + result + "%")
